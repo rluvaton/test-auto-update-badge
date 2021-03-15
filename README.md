@@ -22,6 +22,8 @@ Read in a different language: [![CN](/assets/flags/CN.png)**CN**](/README.chines
 
 <br/>
 
+###### Built and maintained by our [Steering Committee](#steering-committee) and [Collaborators](#collaborators)
+
 # Latest Best Practices and News
 
 - **🇯🇵 Japanese translation:** Our guide is now also translated to Japanese! Courtesy of the amazing [YukiOta](https://github.com/YukiOta) and [Yuta Azumi](https://github.com/YA21)

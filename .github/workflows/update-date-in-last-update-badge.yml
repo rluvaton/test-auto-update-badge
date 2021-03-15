@@ -15,9 +15,9 @@ jobs:
       - name: Update last update badge
         run: |
           # Make file runnable
-          chmod +x "${GITHUB_WORKSPACE}/.github/update-last-update-badge.sh"
+          chmod +x "${GITHUB_WORKSPACE}/.github/workflows/update-last-update-badge.sh"
           # Run script
-          "${GITHUB_WORKSPACE}/.github/update-last-update-badge.sh" "${GITHUB_WORKSPACE}/README.md"
+          "${GITHUB_WORKSPACE}/.github/workflows/update-last-update-badge.sh" "${GITHUB_WORKSPACE}/README.md"
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         if: env.DID_LAST_UPDATE_BADGE_UPDATED

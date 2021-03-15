@@ -34,7 +34,7 @@ is_last_update_badge_date_is_today() {
 }
 
 set_update_result() {
-    echo "DID_LAST_UPDATE_BADGE_UPDATED=$1" >> $GITHUB_ENV
+    echo "DID_LAST_UPDATE_BADGE_UPDATED=$1" #>> $GITHUB_ENV
 }
 
 
@@ -42,7 +42,7 @@ set_update_result() {
 CALENDAR_EMOJI_ENCODED='%F0%9F%93%85'
 
 # Date format example: March 03, 2021
-CURRENT_DATE=`date +"%B %m, %Y"`
+CURRENT_DATE=`date +"%B %d, %Y"`
 
 # We explicitly matching the img.shields.io/badge because when we change the provider of the badge the input will be changed too
 LAST_UPDATE_BADGE_REGEX='<img id="last-update-badge" src="https:\/\/img\.shields\.io\/badge\/[^>]*>'

@@ -26,5 +26,5 @@ jobs:
           author: Update Last Update Badge Action <${{ github.actor }}@users.noreply.github.com>
           branch: update-last-update-badge
           delete-branch: true
-          title: 'Update last update badge to today'
+          title: 'Update last update badge to today [skip ci]'
           body: ''

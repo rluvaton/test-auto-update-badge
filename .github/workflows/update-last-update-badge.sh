@@ -34,7 +34,7 @@ is_last_update_badge_date_is_today() {
 }
 
 set_update_result() {
-    echo "DID_LAST_UPDATE_BADGE_UPDATED=$1" #>> $GITHUB_ENV
+    echo "DID_LAST_UPDATE_BADGE_UPDATED=$1" >> $GITHUB_ENV
 }
 
 
